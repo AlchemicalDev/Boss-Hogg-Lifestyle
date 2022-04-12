@@ -1,42 +1,19 @@
-.header,
-.logo {
-    display: flex;
-}
-
-ul {
-    list-style-type: none;
-    display: flex;
+* {
+    box-sizing: border-box;
     padding: 0%;
-    margin-left: auto;
-    margin-top: 0%
+    margin: 0%;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-/*The navigation bar ends here*/
+/*nav bar starts here*/
 
-.content_one,
-.container {
+.container,
+ul {
     display: flex;
 }
 
-.container {
-    flex-direction: column;
-}
-
-h1,
-p {
-    margin: 0%;
-}
-
-a {
-    text-decoration: none;
-}
-
-.content_one_image {
+ul,
+img {
     margin-left: auto;
 }
-
-.signup_one {
-    width: 100px;
-}
-
-/*The header content ends here*/
