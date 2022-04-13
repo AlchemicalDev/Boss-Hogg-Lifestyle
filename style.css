@@ -92,3 +92,113 @@ body {
     background-color: #1f2937;
 } 
 
+/*navbar and header ends here*/
+
+/*Content section starts here*/
+
+.content .container {
+    display: flex;
+    justify-content: center;
+}
+
+.content h2 {
+    padding-top: 40px;
+}
+
+.the-boxes .container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.the-boxes .box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 6px;
+}
+
+.the-box-text .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.the-box-text .box-text {
+    width: 150px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 80px;
+}
+
+.wiki-text .container {
+    display: flex;
+}
+
+.wiki-text {
+    background-color: lightgray;
+    padding-top: 80px;
+}
+
+.wiki-text .text {
+    font-size: 20px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.author {
+    background-color: lightgray;
+}
+
+.author .container {
+    text-align: right;
+}
+
+.author .name {
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+/*content section ends here*/
+
+/*footer section starts here*/
+
+.footer {
+    height: 200px;
+    background-color: white;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space;
+    align-items: center;
+    height: 100%;
+}
+
+.footer .box {
+    height: 80px;
+    width: 1100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .text {
+    color: white;
+    font-weight: bold;
+}
+
+.footer .text-2 {
+    color: white;
+}
+
+.footer .button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    width: 70px;
+    padding: 5px;
+}
